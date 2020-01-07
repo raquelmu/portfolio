@@ -38,8 +38,18 @@
       <p><i class="fab fa-linkedin icon-contact"></i></p>
     </div>
   </section>
- 
+  <script>
+    (function() {
 
+      document.getElementById("menu-small").addEventListener("click", openMenu);
+        
+      function openMenu(){
+        document.getElementById("menu-small").style.display = "none";
+        document.getElementsByClassName("menu-large")[0].style.display = "flex"
+      }
+    
+    })();
+  </script>
 </body>
 </html>  
  

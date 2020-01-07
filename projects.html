@@ -25,57 +25,63 @@
             </ul>
       </nav>
     </div>
-    </header>
-    <div class="dark-background"></div>
-    <section class="container-projects">
-        <figure class="circulo circulo-small">
-          <img src="images/profile.png" alt="profile" class="image-profile">
+  </header>
+  <div class="dark-background"></div>
+  <section class="container-projects">
+    <figure class="circulo circulo-small">
+      <img src="images/profile.png" alt="profile" class="image-profile">
+    </figure>
+    <h1 class="text-container-projects">Here you can see my latest work</h1>
+    <div class="project-list">
+      <div class="project">
+        <figure>
+          <img src="images/decathlon.png" alt="projecto uno" class="img-project">
+          <figcaption>texto</figcaption>
         </figure>
-      <h1 class="text-container-projects">Here you can see my latest work</h1>
-      <div class="project-list">
-          <div class="project">
-              <figure>
-                <img src="images/decathlon.png" alt="projecto uno" class="img-project">
-                <figcaption>texto</figcaption>
-              </figure>
-            </div>
-      
-            <div class="project">
-              <figure>
-                <img src="images/decathlon.png" alt="projecto dos" class="img-project">
-                <figcaption>texto</figcaption>
-              </figure>
-            </div>
-      
-            <div class="project">
-              <figure>
-                <img src="images/decathlon.png" alt="projecto tres" class="img-project">
-                <figcaption>texto</figcaption>
-              </figure>
-            </div>
-      
-            <div class="project">
-              <figure>
-                <img src="images/decathlon.png" alt="projecto cuatro" class="img-project">
-                <figcaption>texto</figcaption>
-              </figure>
-            </div>
-      
-            <div class="project">
-              <figure>
-                <img src="images/decathlon.png" alt="projecto cinco" class="img-project">
-                <figcaption>texto</figcaption>
-              </figure>
-            </div>
-      
-            <div class="project">
-              <figure>
-                <img src="images/decathlon.png" alt="projecto seis" class="img-project">
-                <figcaption>texto</figcaption>
-              </figure>
-            </div>
       </div>
-    </section>
-  
+      <div class="project">
+        <figure>
+          <img src="images/decathlon.png" alt="projecto dos" class="img-project">
+          <figcaption>texto</figcaption>
+        </figure>
+      </div>
+      <div class="project">
+        <figure>
+          <img src="images/decathlon.png" alt="projecto tres" class="img-project">
+          <figcaption>texto</figcaption>
+        </figure>
+      </div>
+      <div class="project">
+        <figure>
+        <img src="images/decathlon.png" alt="projecto cuatro" class="img-project">
+        <figcaption>texto</figcaption>
+        </figure>
+      </div>
+      <div class="project">
+        <figure>
+          <img src="images/decathlon.png" alt="projecto cinco" class="img-project">
+          <figcaption>texto</figcaption>
+        </figure>
+      </div>
+      <div class="project">
+        <figure>
+          <img src="images/decathlon.png" alt="projecto seis" class="img-project">
+          <figcaption>texto</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  <script>
+    (function() {
+
+      document.getElementById("menu-small").addEventListener("click", openMenu);
+        
+      function openMenu(){
+        document.getElementById("menu-small").style.display = "none";
+        document.getElementsByClassName("menu-large")[0].style.display = "flex"
+      }
+    
+    })();
+  </script>
 </body>
 </html>  
